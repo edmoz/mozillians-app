@@ -22,13 +22,16 @@
 <script>
 function init(){
   console.log('init');
+  $(document).ready(function() {
+    // var json = $.getJSON("http://people.mozilla.org/~ewong2/data.json");
+    var json = $.getJSON("data.json");
+
+    var data = eval("(" +json.responseText + ")");
+    // document.write(data["a"]);
+    console.log('foo'+data);
+  });
 }
-$(document).ready(function() {
-  var json = $.getJSON("http://people.mozilla.org/~ewong2/data.json");
-  var data = eval("(" +json.responseText + ")");
-  document.write(data["a"]);
-  console.log('foo'+data);
-});
+
 </script>
 </head>
 <body onLoad="init();">

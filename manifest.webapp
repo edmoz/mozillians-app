@@ -1,0 +1,11 @@
+{
+    "name":"Mozillians",
+    "developer": {
+        "name":"Mozillians Demo",
+        "url":"http://mozillians.org"
+    },
+    "description":"Community designed, created, driven FxOS app",
+    "icons":{
+        "128":"/icon-144.png"
+    }
+}

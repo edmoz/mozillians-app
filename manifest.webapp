@@ -1,11 +1,14 @@
 {
-    "name":"Mozillians",
-    "developer": {
-        "name":"Mozillians Demo",
-        "url":"http://mozillians.org"
-    },
-    "description":"Community designed, created, driven FxOS app",
-    "icons":{
-        "128":"/icon-144.png"
-    }
+  "version": "0.1",
+  "name": "Mozillians Demo",
+  "description": "Community designed, created, driven FxOS app",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Mozilla Community",
+    "url": "http://tbd.com"
+  },
+  "default_locale": "en"
 }
